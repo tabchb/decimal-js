@@ -20,7 +20,7 @@ T = (function () {
       document.body.innerHTML += str.replace(/\n/g, '<br>').replace(/ /g, '&nbsp;');
     };
   } else {
-    Decimal = require('../decimal');
+    Decimal = require('../decimal-js');
     write = process.stdout.write.bind(process.stdout);
   }
 

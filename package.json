@@ -1,5 +1,5 @@
 {
-  "name": "decimal.js",
+  "name": "decimal-js",
   "description": "An arbitrary-precision Decimal type for JavaScript.",
   "version": "6.0.0",
   "keywords": [
@@ -18,9 +18,9 @@
   ],
   "repository" : {
     "type": "git",
-    "url": "https://github.com/MikeMcl/decimal.js.git"
+    "url": "https://github.com/tabchb/decimal-js.git"
   },
-  "main": "decimal.js",
+  "main": "decimal-js.js",
   "author": {
     "name": "Michael Mclaughlin",
     "email": "M8ch88l@gmail.com"
@@ -28,6 +28,6 @@
   "license": "MIT",
   "scripts": {
     "test": "node ./test/test.js",
-    "build": "uglifyjs decimal.js --source-map doc/decimal.js.map -c -m -o decimal.min.js --preamble \"/* decimal.js v6.0.0 https://github.com/MikeMcl/decimal.js/LICENCE */\""
+    "build": "uglifyjs decimal-js.js --source-map doc/decimal-js.js.map -c -m -o decimal-js.min.js --preamble \"/* decimal-js.js v6.0.0 https://github.com/tabchb/decimal-js/LICENCE */\""
   }
 }
